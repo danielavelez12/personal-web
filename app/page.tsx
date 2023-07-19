@@ -7,14 +7,12 @@ type Book = {
 }
 
 const books: Book[] = [
+  { title: "The Three-Body Problem", completed: false },
+  { title: "A Room of One&apos;s Own", completed: false },
+  { title: "The Death and Life of Great American Cities", completed: false },
   { title: "Art of Attack in Chess", completed: false },
-  { title: "A Room of One's Own", completed: false },
   { title: "Dictionary of Obscure Sorrows", completed: false },
-  { title: "The Lincoln Highway", completed: true },
-  { title: "Atomic Habits", completed: true },
-  { title: "The Elephant Vanishes", completed: true },
-  { title: "The Three-Body Problem", completed: true },
-  { title: "The Death and Life of Great American Cities", completed: true },
+  { title: "Morning Brew", completed: false },
   { title: "On Palestine", completed: true },
   { title: "A Gentleman in Moscow", completed: true },
   { title: "Cloud Cuckoo Land", completed: true },
@@ -29,8 +27,9 @@ const books: Book[] = [
   { title: "The Goal: A Process of Ongoing Improvement", completed: true },
   { title: "Antifragile", completed: true },
   { title: "Crying in H-Mart", completed: true },
-  { title: "Goodbye, Again", completed: true },
+  { title: "Goodbye, Again", completed: true }
 ];
+
 
 const Home = () => {
   return (
